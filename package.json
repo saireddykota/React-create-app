@@ -1,0 +1,32 @@
+{
+  "name": "class_by_midhun",
+  "version": "1.0.0",
+  "description": "first react application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saireddykota/class_by_midhun.git"
+  },
+  "keywords": [
+    "react",
+    "first-app"
+  ],
+  "author": "sai reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saireddykota/class_by_midhun/issues"
+  },
+  "homepage": "https://github.com/saireddykota/class_by_midhun#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
