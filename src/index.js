@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
 
 const App = () => (
-  <div style={{textAlign: 'center'}}>
-     <h1>Hello World</h1>
-   </div>
+  <div>
+    <Header />
+    <Home />
+  </div>
 );
 
 ReactDOM.render(
