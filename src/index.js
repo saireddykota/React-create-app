@@ -5,8 +5,8 @@ import Home from './components/Home/Home';
 
 const App = () => (
   <div>
-    <Header />
-    <Home />
+    <Header appname="Test.com" />
+    <Home pagename="Home" />
   </div>
 );
 

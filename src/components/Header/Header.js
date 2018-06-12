@@ -3,7 +3,7 @@ import './Header.less';
 
 const Header = () => (
   <header>
-    Header Secton
+    Our app name is
   </header>
 );
 
