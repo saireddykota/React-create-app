@@ -20,6 +20,11 @@ class Home extends Component {
       ulList.push(this.state.value);
       this.setState({ list: ulList, value: '' });
     };
+    this.remove = (val) => {
+      const rmList = this.state.list;
+      rmList.splice(rmList.indexOf(val), 2);
+      this.setState({ list: rmList });
+    };
   }
   render() {
     return (
@@ -31,7 +36,7 @@ class Home extends Component {
             this.state.list.map((val, index) => (
               <li key={index}>
                 {val}
-                <button>x</button>
+                <button onClick={() => this.remove(val)}>x</button>
               </li>
             ))
           }

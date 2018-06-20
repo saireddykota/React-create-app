@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Home from './components/Home/Home';
+import Approute from './routes';
 
 const App = () => (
   <div>
     <Header appname="Test.com" />
-    <Home pagename="Home" />
+    <Approute />
   </div>
 );
 
 ReactDOM.render(
-  <App />,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById('root')
 );
